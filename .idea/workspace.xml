@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bde31f-5431-449e-87ce-aa99a236fc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/swagger/config/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/ToolsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/utils/base/BaseUtilsBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/utils/base/BaseBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/advice/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/advice/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/exception/entity/bo/ResultBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/exception/entity/bo/ResultBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/jwt/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/utils/base/BaseUtilsBeanUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +81,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dkm/user" />
@@ -115,7 +148,8 @@
       <updated>1585207500035</updated>
       <workItem from="1585207503187" duration="5689000" />
       <workItem from="1585270882768" duration="20116000" />
-      <workItem from="1585294826540" duration="4268000" />
+      <workItem from="1585294826540" duration="4469000" />
+      <workItem from="1585529929537" duration="10673000" />
     </task>
     <servers />
   </component>
@@ -123,69 +157,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1585209108238">
+    <state x="552" y="178" key="#Inspections" timestamp="1585530436732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1585209108238" />
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1585530436732" />
     <state x="684" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585299362349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585299362349" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585296118121">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585536450439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585296118121" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585536450439" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585292920341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585292920341" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585298605961">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585537979667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585298605961" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1585299216075">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585537979667" />
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216075" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1585299216074">
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216074" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1585299216074">
+    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216074" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1585299216074">
+    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216074" />
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1585299216075">
+    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1585539864815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216075" />
-    <state width="1877" height="318" key="GridCell.Tab.1.center" timestamp="1585299216075">
+    <state width="1877" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864815" />
+    <state width="1877" height="318" key="GridCell.Tab.1.center" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216075" />
-    <state width="1877" height="318" key="GridCell.Tab.1.left" timestamp="1585299216075">
+    <state width="1877" height="318" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.1.left" timestamp="1585539864814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216075" />
-    <state width="1877" height="318" key="GridCell.Tab.1.right" timestamp="1585299216075">
+    <state width="1877" height="318" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864814" />
+    <state width="1877" height="318" key="GridCell.Tab.1.right" timestamp="1585539864815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585299216075" />
+    <state width="1877" height="318" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585539864815" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585209022666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585209022666" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1585280976259">
+    <state width="498" height="456" key="SwitcherDM" timestamp="1585540544696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585280976259" />
+    <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585540544696" />
     <state x="334" y="217" key="new project wizard" timestamp="1585208842011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585208842011" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585539769882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585539769882" />
   </component>
 </project>

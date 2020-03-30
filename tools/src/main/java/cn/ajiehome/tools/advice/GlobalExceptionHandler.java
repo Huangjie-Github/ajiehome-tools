@@ -5,10 +5,6 @@ import cn.ajiehome.tools.exception.ApplicationException;
 import cn.ajiehome.tools.exception.entity.bo.ResultBO;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Author: HuangJie
@@ -20,11 +16,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public Object handler(Exception e){
-//        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-//        assert servletRequestAttributes != null;
-//        HttpServletRequest request = servletRequestAttributes.getRequest();
-//        String token = request.getHeader("token");
-
         if(e instanceof ApplicationException){
             return ResultBO.newResultBO((ApplicationException) e);
         }else {

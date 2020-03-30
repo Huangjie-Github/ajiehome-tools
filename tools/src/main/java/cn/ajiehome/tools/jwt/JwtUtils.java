@@ -9,7 +9,6 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import org.springframework.stereotype.Component;
-
 import java.util.Base64;
 import java.util.Date;
 import java.util.HashMap;
@@ -46,28 +45,5 @@ public class JwtUtils {
                 .withIssuer(jwtBeanBO.getUserName())
                 .withExpiresAt(outDate)
                 .sign(algorithm);
-    }
-
-    public void requireToken(String token){
-        DecodedJWT decode = JWT.decode(token);
-        //Jwt的头部，由于头部被Base64编码过了，所以需要base64逆解编码
-        String header = new String(Base64.getDecoder().decode(decode.getHeader()));
-        //Jwt的中间部分，理由同上头部
-        String payload = new String(Base64.getDecoder().decode(decode.getPayload()));
-
-        JSONObject userJson = JSONObject.parseObject(header);
-        String id = userJson.getString("id");
-        String userName = userJson.getString("userName");
-        Algorithm algorithm = Algorithm.HMAC256(id);
-        try {
-            //设置验证条件，这里设置了验证的密钥和编码以及验证的签发人
-            JWTVerifier jwtVerifier = JWT.require(algorithm).withIssuer(userName).build();
-            //验证是否匹配
-            DecodedJWT verify = jwtVerifier.verify(token);
-            //需要的信息获取从头部份获取和中间部分获取
-        }catch (Exception e){
-            throw  new ApplicationException(CodeType.TOKEN_TIME_OUT);
-        }
-
     }
 }
