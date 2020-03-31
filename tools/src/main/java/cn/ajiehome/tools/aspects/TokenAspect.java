@@ -29,12 +29,9 @@ public class TokenAspect {
     @Pointcut(value = "@annotation(cn.ajiehome.tools.annotations.AllowToken)")
     private void pointCut(){}
 
-    @Pointcut(value = "execution(* cn.ajiehome.tools.aspects.TokenAspect.*(..))")
-    private void  cut(){}
-
     @Before(value = "pointCut()&&@annotation(allowToken)")
     private void before(AllowToken allowToken){
-        System.out.println("AOP之前");
+        //AOP前置通知 advice
         ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         assert servletRequestAttributes != null;
         HttpServletRequest request = servletRequestAttributes.getRequest();
@@ -65,16 +62,16 @@ public class TokenAspect {
     }
     @After(value = "pointCut()&&@annotation(allowToken)")
     private void after(AllowToken allowToken){
-        System.out.println("AOP之后");
+        //AOP后置通知 advice
     }
 
     @AfterReturning(value = "pointCut()&& @annotation(allowToken)",returning = "o")
     private void alterReturn(AllowToken allowToken,Object o){
-        System.out.println("AOP返回值");
+        //AOP返回通知 advice
     }
 
     @AfterThrowing(value = "pointCut()&&@annotation(allowToken)")
     private void alterError(AllowToken allowToken){
-        System.out.println("AOP异常");
+        //AOP异常通知 advice
     }
 }

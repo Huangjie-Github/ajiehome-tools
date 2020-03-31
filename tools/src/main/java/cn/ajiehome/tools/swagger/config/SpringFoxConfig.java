@@ -32,7 +32,7 @@ public class SpringFoxConfig{
         return new ApiInfoBuilder()
                 .title("API接口文档")
                 .description("API 接口")
-                .termsOfServiceUrl("http://despairyoke.github.io/")
+                .termsOfServiceUrl("http://www.jiekemaike.cn")
                 .version("1.0")
                 .build();
     }

@@ -80,6 +80,9 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-mail:2.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.1.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: com.auth0:java-jwt:3.10.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
@@ -101,5 +104,49 @@
     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.2.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jbpm:jbpm-workitems-email:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.mail:mail:1.4.5" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jbpm:jbpm-workitems-core:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-core:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mvel:mvel2:2.4.7.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie.soup:kie-soup-commons:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-core-reflective:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-core-dynamic:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie.soup:kie-soup-project-datamodel-commons:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie.soup:kie-soup-project-datamodel-api:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jbpm:jbpm-flow:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-dmn-feel:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:antlr4-runtime:4.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.javaparser:javaparser-core:3.13.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-mvel-parser:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ch.obermuhlner:big-math:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-dmn-core:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-dmn-backend:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-ruleunit:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-canonical-model:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-model-compiler:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-mvel-compiler:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jpmml:pmml-model:1.4.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jpmml:pmml-agent:1.4.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-lang3:3.8.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jbpm:jbpm-bpmn2:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.drools:drools-compiler:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.thoughtworks.xstream:xstream:1.4.11.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jbpm:jbpm-flow-builder:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-api:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie.soup:kie-soup-maven-support:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-internal:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-dmn-api:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.kie:kie-dmn-model:7.34.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:ST4:4.0.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:antlr-runtime:3.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: antlr:antlr:2.7.7" level="project" />
   </component>
 </module>
