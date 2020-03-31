@@ -47,4 +47,5 @@ public abstract class BaseBeanUtils extends SpringBootServletInitializer {
     public BodyUtils getGetBodyUtils(){
         return new BodyUtils();
     }
+
 }

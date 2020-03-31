@@ -8,10 +8,11 @@ import cn.ajiehome.tools.utils.BodyUtils;
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
 
 /**
  * @Author: HuangJie
@@ -30,13 +31,15 @@ public class TestController {
     @Autowired
     private NetEaseEmailCode netEaseEmailCode;
 
+
     @ApiOperation(value = "获取token",notes = "为每一位用户生成特定的Token")
     @PostMapping("/token")
-    public String allToken(@RequestBody  @ApiParam(name = "用户数据对象",value = "直接传入JSON主体数据，不需要jwtBeanBO的JSON头",required = true) JwtBeanBO jwtBeanBO){
+    public String allToken(@RequestBody  @ApiParam(name = "用户数据对象",
+            value = "传入对应的用户数据：id为用户id，passWord：为用户密码，userAddress：为用户地址，userName：为用户名，userPhone：为用户手机号",
+            required = true) JwtBeanBO jwtBeanBO){
         return jwtUtils.getToken(1000 * 60 * 60 * 24, jwtBeanBO);
     }
-
-    @AllowToken
+//    @AllowToken
     @ApiOperation(value = "邮箱验证码",notes = "给特定用户发送邮箱验证码")
     @ApiImplicitParam(name = "email",value = "用来给用户发送验证码的邮箱号码",required = true,paramType = "body",dataType = "String")
     @PostMapping("/email/code")
@@ -44,5 +47,21 @@ public class TestController {
         JSONObject bodyJson = bodyUtils.bodyJson(request);
         String email = bodyJson.getString("email");
         return netEaseEmailCode.sendCode(email);
+    }
+
+    @ApiOperation(value = "测试接口",notes = "单纯的测试接口，无任何逻辑操作，不需要任何参数，包括Token")
+    @PostMapping("/")
+    public Boolean test(){
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setSubject("验证码");
+        message.setText("120134");
+        message.setTo("1728537059@qq.com");
+        message.setFrom("huangjie28007x@163.com");
+        JavaMailSenderImpl javaMailSender = new JavaMailSenderImpl();
+        javaMailSender.setUsername("huangjie28007x@163.com");
+        javaMailSender.setHost("smtp.163.com");
+        javaMailSender.setPassword("OXOFZWCAMCQTTGSR");
+        javaMailSender.send(message);
+        return true;
     }
 }
