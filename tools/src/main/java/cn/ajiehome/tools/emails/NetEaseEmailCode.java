@@ -31,15 +31,16 @@ public class NetEaseEmailCode {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setSubject("【阿杰之家】");
             message.setText("验证码:"+code+"\n请保存好您的验证码，验证码将在五分钟之后过期。");
-            //断言email不能为空
-            assert email != null;
+            if (email==null||email.length()==0){
+                throw new ApplicationException(CodeType.SERVICE_EMAIL_NOT_FOUND);
+            }
             message.setTo(email);
             message.setFrom(userEmail);
             javaMailSender.send(message);
         } catch (Exception e) {
             throw new ApplicationException(CodeType.SERVICE_EMAIL_SEND_ERROR);
         }
-        return true; g
+        return true;
     }
 
     private String generatedCode() {

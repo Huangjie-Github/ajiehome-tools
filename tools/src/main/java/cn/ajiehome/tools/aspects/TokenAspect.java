@@ -8,13 +8,10 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import sun.awt.SunHints;
-
 import javax.servlet.http.HttpServletRequest;
 import java.util.Base64;
 
@@ -45,10 +42,11 @@ public class TokenAspect {
         String header = new String(Base64.getDecoder().decode(decode.getHeader()));
         //Jwt的中间部分，理由同上头部
         String payload = new String(Base64.getDecoder().decode(decode.getPayload()));
-
+        //解析头部
         JSONObject userJson = JSONObject.parseObject(header);
         String id = userJson.getString("id");
         String userName = userJson.getString("userName");
+        //逆解匹配整个Token的编码以及密钥key
         Algorithm algorithm = Algorithm.HMAC256(id);
         try {
             //设置验证条件，这里设置了验证的密钥和编码以及验证的签发人
@@ -57,6 +55,7 @@ public class TokenAspect {
             DecodedJWT verify = jwtVerifier.verify(token);
             //需要的信息获取从头部份获取和中间部分获取
         }catch (Exception e){
+
             throw  new ApplicationException(CodeType.TOKEN_TIME_OUT);
         }
     }
