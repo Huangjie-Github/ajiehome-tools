@@ -3,6 +3,7 @@ package cn.ajiehome.tools.md5;
 import cn.ajiehome.tools.enums.CodeType;
 import cn.ajiehome.tools.exception.ApplicationException;
 
+import java.awt.*;
 import java.io.*;
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -31,9 +32,8 @@ public class Md5Utils {
             byte[] digest = md5.digest();
             BigInteger bigInteger = new BigInteger(1,digest);
             //生成MD5的进制数
-            return bigInteger.toString(10);
+            return bigInteger.toString(16);
         } catch (NoSuchAlgorithmException | IOException e) {
-            e.printStackTrace();
             throw new ApplicationException(CodeType.SERVICE_ERROR, "MD5转换失败");
         }
     }
