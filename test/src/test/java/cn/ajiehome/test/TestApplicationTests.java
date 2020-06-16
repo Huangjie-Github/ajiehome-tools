@@ -1,11 +1,9 @@
 package cn.ajiehome.test;
 
-import cn.ajiehome.tools.md5.Md5Utils;
+import cn.ajiehome.common.md5.Md5Utils;
 import org.junit.Test;
 
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 import java.io.File;
 

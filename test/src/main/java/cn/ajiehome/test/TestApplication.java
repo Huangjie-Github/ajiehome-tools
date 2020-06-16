@@ -1,6 +1,6 @@
 package cn.ajiehome.test;
 
-import cn.ajiehome.tools.utils.base.BaseBeanUtils;
+import cn.ajiehome.common.utils.base.BaseBeanUtils;
 import io.swagger.annotations.Api;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

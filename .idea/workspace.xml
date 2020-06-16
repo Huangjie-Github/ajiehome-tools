@@ -2,50 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bde31f-5431-449e-87ce-aa99a236fc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_ajiehome_common_0_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/Snowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_ajiehome_common_0_0_1_SNAPSHOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/annotations/AllowToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/annotations/AllowToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/aspects/TokenAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/emails/NetEaseEmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/emails/NetEaseEmailCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/enums/CodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/enums/CodeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/exception/ApplicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/entity/bo/ResultBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/exception/entity/bo/ResultBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/bo/JwtBeanBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/jwt/bo/JwtBeanBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/md5/Md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/md5/Md5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/swagger/config/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/swagger/config/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/BodyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/BodyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/base/BaseBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/BaseBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/test/java/cn/ajiehome/test/TestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/cn/ajiehome/test/TestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/TestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/test-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/test-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/test-classes/cn/ajiehome/test/TestApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/annotations/AllowToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/annotations/AllowToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/emails/NetEaseEmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/emails/NetEaseEmailCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/enums/CodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/enums/CodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/exception/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/ApplicationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/exception/entity/bo/ResultBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/entity/bo/ResultBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/jwt/bo/JwtBeanBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/bo/JwtBeanBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/md5/Md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/md5/Md5Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/swagger/config/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/swagger/config/SpringFoxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/utils/BodyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/BodyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/main/java/cn/ajiehome/tools/utils/base/BaseBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/base/BaseBeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/advice/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/advice/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/annotations/AllowToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/annotations/AllowToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/aspects/TokenAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/aspects/TokenAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/emails/NetEaseEmailCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/emails/NetEaseEmailCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/enums/CodeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/enums/CodeType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/exception/ApplicationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/exception/ApplicationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/exception/entity/bo/ResultBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/exception/entity/bo/ResultBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/jwt/JwtUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/jwt/bo/JwtBeanBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/jwt/bo/JwtBeanBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/md5/Md5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/md5/Md5Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/swagger/config/SpringFoxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/swagger/config/SpringFoxConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/utils/BodyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/utils/BodyUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/classes/cn/ajiehome/tools/utils/base/BaseBeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/cn/ajiehome/tools/utils/base/BaseBeanUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/target/tools-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/tools-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ajiehome-tools.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +159,7 @@
       <workItem from="1586221843957" duration="8353000" />
       <workItem from="1592319398948" duration="239000" />
       <workItem from="1592319658580" duration="246000" />
+      <workItem from="1592319912948" duration="402000" />
     </task>
     <servers />
   </component>

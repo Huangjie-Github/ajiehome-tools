@@ -1,10 +1,10 @@
 package cn.ajiehome.test.controller;
 
-import cn.ajiehome.tools.annotations.AllowToken;
-import cn.ajiehome.tools.emails.NetEaseEmailCode;
-import cn.ajiehome.tools.jwt.JwtUtils;
-import cn.ajiehome.tools.jwt.bo.JwtBeanBO;
-import cn.ajiehome.tools.utils.BodyUtils;
+import cn.ajiehome.common.annotations.AllowToken;
+import cn.ajiehome.common.emails.NetEaseEmailCode;
+import cn.ajiehome.common.jwt.JwtUtils;
+import cn.ajiehome.common.jwt.bo.JwtBeanBO;
+import cn.ajiehome.common.utils.BodyUtils;
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
