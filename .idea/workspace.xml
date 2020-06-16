@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bde31f-5431-449e-87ce-aa99a236fc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/Snowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_ajiehome_common_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/annotations/AllowToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/annotations/AllowToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/aspects/TokenAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/aspects/TokenAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/emails/NetEaseEmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/emails/NetEaseEmailCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/enums/CodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/enums/CodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/exception/ApplicationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/exception/entity/bo/ResultBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/exception/entity/bo/ResultBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/jwt/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/jwt/bo/JwtBeanBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/jwt/bo/JwtBeanBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/md5/Md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/md5/Md5Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/swagger/config/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/swagger/config/SpringFoxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/BodyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/BodyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/tools/utils/base/BaseBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/BaseBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/BaseBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/BaseBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/enums/CodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/enums/CodeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/ajiehome/common/utils/SnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/ajiehome/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/test/java/cn/ajiehome/test/TestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/cn/ajiehome/test/TestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/TestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/ajiehome/test/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/test-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/test-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/test-classes/cn/ajiehome/test/TestApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +133,7 @@
       <workItem from="1586221843957" duration="8353000" />
       <workItem from="1592319398948" duration="239000" />
       <workItem from="1592319658580" duration="246000" />
-      <workItem from="1592319912948" duration="402000" />
+      <workItem from="1592319912948" duration="6304000" />
     </task>
     <servers />
   </component>
@@ -199,37 +173,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="411" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585557944323" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1586242505022">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom" timestamp="1592326198883">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592326198883" />
     <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586242505022" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1586242505022">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="189" key="GridCell.Tab.0.center" timestamp="1592326198882">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592326198882" />
     <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586242505022" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1586242505022">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="189" key="GridCell.Tab.0.left" timestamp="1592326198882">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592326198882" />
     <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586242505022" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1586242505022">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="189" key="GridCell.Tab.0.right" timestamp="1592326198883">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592326198883" />
     <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586242505022" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1585645265900">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="352" key="GridCell.Tab.1.bottom" timestamp="1592325182990">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="352" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592325182990" />
     <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585645265900" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1585645265900">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="352" key="GridCell.Tab.1.center" timestamp="1592325182990">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="352" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592325182990" />
     <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585645265900" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1585645265900">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="352" key="GridCell.Tab.1.left" timestamp="1592325182990">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="352" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592325182990" />
     <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585645265900" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1585645265900">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="352" key="GridCell.Tab.1.right" timestamp="1592325182990">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="352" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592325182990" />
     <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585645265900" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585548186776">
       <screen x="0" y="0" width="1920" height="1040" />

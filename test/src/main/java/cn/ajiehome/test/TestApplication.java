@@ -1,7 +1,6 @@
 package cn.ajiehome.test;
 
-import cn.ajiehome.common.utils.base.BaseBeanUtils;
-import io.swagger.annotations.Api;
+import cn.ajiehome.common.BaseBeanUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;

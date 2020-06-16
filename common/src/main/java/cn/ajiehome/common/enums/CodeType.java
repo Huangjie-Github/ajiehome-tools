@@ -14,7 +14,8 @@ public enum CodeType {
     TOKEN_TIME_OUT(4002,"Token过时"),
     SERVICE_IO_ERROR(5003,"服务IO操作异常"),
     SERVICE_EMAIL_SEND_ERROR(5004,"邮件验证码发送异常"),
-    SERVICE_EMAIL_NOT_FOUND(5005,"邮箱号码为空");
+    SERVICE_EMAIL_NOT_FOUND(5005,"邮箱号码为空"),
+    TIME_POINTER_BACK(5006,"时间指针被回移动");
 
     private int code;
     private String msg;

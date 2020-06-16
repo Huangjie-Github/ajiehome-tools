@@ -6,6 +6,7 @@ import cn.ajiehome.common.emails.NetEaseEmailCode;
 import cn.ajiehome.common.jwt.JwtUtils;
 import cn.ajiehome.common.swagger.config.SpringFoxConfig;
 import cn.ajiehome.common.utils.BodyUtils;
+import cn.ajiehome.common.utils.SnowFlake;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
@@ -46,6 +47,11 @@ public abstract class BaseBeanUtils extends SpringBootServletInitializer {
     @Bean
     public BodyUtils getGetBodyUtils(){
         return new BodyUtils();
+    }
+
+    @Bean
+    public SnowFlake getShowFlake(){
+        return new SnowFlake();
     }
 
 }

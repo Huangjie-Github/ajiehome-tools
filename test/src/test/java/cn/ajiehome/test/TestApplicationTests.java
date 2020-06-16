@@ -1,27 +1,27 @@
 package cn.ajiehome.test;
 
+import cn.ajiehome.common.BaseBeanUtils;
 import cn.ajiehome.common.md5.Md5Utils;
+import cn.ajiehome.common.utils.SnowFlake;
 import org.junit.Test;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.core.AutoConfigureCache;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @SpringBootTest
-public class TestApplicationTests {
+public class TestApplicationTests extends BaseBeanUtils {
 
 
     @Test
     public void contextLoads() {
-
-        File file1 = new File("E:\\images\\2020\\4\\2\\695267429294706688.jpg");
-        File file2 = new File("C:\\Users\\Administrator\\Desktop\\test.jpg");
-
-        Md5Utils md5Utils = new Md5Utils();
-        String md5 = md5Utils.md5(file1);
-        String md51 = md5Utils.md5(file2);
-        System.out.println(md5+"=="+md51);
-        System.out.println(md5.equals(md51));
+        Date date = new Date(1288834974657L);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-dd-mm HH:mm:ss");
+        System.out.println(format.format(date));
     }
 
 }
