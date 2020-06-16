@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ajiehome-tools.iml" filepath="$PROJECT_DIR$/ajiehome-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/tools.iml" filepath="$PROJECT_DIR$/common/tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
-      <module fileurl="file://$PROJECT_DIR$/utility.iml" filepath="$PROJECT_DIR$/utility.iml" />
     </modules>
   </component>
 </project>

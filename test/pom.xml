@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.ajiehome</groupId>
-        <artifactId>utility</artifactId>
+        <artifactId>ajiehome-tools</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>test</artifactId>
@@ -34,7 +34,7 @@
         </dependency>
         <dependency>
             <groupId>cn.ajiehome</groupId>
-            <artifactId>tools</artifactId>
+            <artifactId>common</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
