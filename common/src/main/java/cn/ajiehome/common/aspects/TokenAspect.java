@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
+import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 /**
@@ -34,14 +35,14 @@ public class TokenAspect {
         HttpServletRequest request = servletRequestAttributes.getRequest();
         String token = request.getHeader("token");
         if (token==null){
-            throw new ApplicationException(CodeType.TOKEN_TIME_OUT);
+            throw new ApplicationException(CodeType.TOKEN_NULL);
         }
         //解析token
         DecodedJWT decode = JWT.decode(token);
         //Jwt的头部，由于头部被Base64编码过了，所以需要base64逆解编码
-        String header = new String(Base64.getDecoder().decode(decode.getHeader()));
+        String header = new String(Base64.getUrlDecoder().decode(decode.getHeader()), StandardCharsets.UTF_8);
         //Jwt的中间部分，理由同上头部
-        String payload = new String(Base64.getDecoder().decode(decode.getPayload()));
+        String payload = new String(Base64.getUrlDecoder().decode(decode.getPayload()),StandardCharsets.UTF_8);
         //解析头部
         JSONObject userJson = JSONObject.parseObject(header);
         String id = userJson.getString("id");

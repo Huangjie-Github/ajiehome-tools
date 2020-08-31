@@ -59,12 +59,17 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
-
         <dependency>
             <groupId>org.jbpm</groupId>
             <artifactId>jbpm-workitems-email</artifactId>
             <version>7.34.0.Final</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>3.4.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

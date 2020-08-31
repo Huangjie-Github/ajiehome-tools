@@ -6,6 +6,8 @@ import cn.ajiehome.common.exception.entity.bo.ResultBO;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * @Author: HuangJie
  * @Date: 2020/3/27 15:44
@@ -15,11 +17,13 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
-    public Object handler(Exception e){
+    public Object handler(Exception e, HttpServletResponse response){
         if(e instanceof ApplicationException){
+            response.setStatus(202);
             return ResultBO.newResultBO((ApplicationException) e);
         }else {
-            return ResultBO.newResultBO(CodeType.SERVICE_Exception,e.getMessage());
+            response.setStatus(203);
+            return ResultBO.newResultBO(CodeType.SYSTEM_EXCEPTION,e.getMessage());
         }
     }
 }

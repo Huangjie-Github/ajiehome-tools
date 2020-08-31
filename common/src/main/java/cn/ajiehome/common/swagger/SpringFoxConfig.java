@@ -1,4 +1,4 @@
-package cn.ajiehome.common.swagger.config;
+package cn.ajiehome.common.swagger;
 
 import org.springframework.context.annotation.Bean;
 import springfox.documentation.builders.ApiInfoBuilder;
