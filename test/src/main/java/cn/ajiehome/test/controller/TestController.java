@@ -37,7 +37,11 @@ public class TestController {
     }
 
     @ApiOperation(value = "邮箱验证码",notes = "给特定用户发送邮箱验证码")
-    @ApiImplicitParam(name = "email",value = "用来给用户发送验证码的邮箱号码",required = true,paramType = "body",dataType = "String")
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "token",value = "token",required = true,paramType = "header",dataType = "String"),
+        @ApiImplicitParam(name = "email",value = "用来给用户发送验证码的邮箱号码",required = true,paramType = "body",dataType = "String")
+
+    })
     @PostMapping("/email/code")
     @AllowToken
     public Boolean emailCode(HttpServletRequest request){

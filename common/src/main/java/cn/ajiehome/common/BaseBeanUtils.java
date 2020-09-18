@@ -60,6 +60,10 @@ public abstract class BaseBeanUtils extends SpringBootServletInitializer {
     @Bean
     public GoWebMvcConfigurerAdapter getGoWebMvcConfigurerAdapter(){ return new GoWebMvcConfigurerAdapter(); }
 
+    /**
+     * mybatis-plus分页插件
+     * @return 分页配置结果
+     */
     @Bean
     public PaginationInterceptor paginationInterceptor() {
         PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
