@@ -8,8 +8,11 @@ import cn.ajiehome.common.utils.BodyUtils;
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author: HuangJie
@@ -54,5 +57,14 @@ public class TestController {
     @PostMapping("/")
     public Boolean test(){
        return true;
+    }
+
+    @ApiOperation(value = "测试接口",notes = "单纯的测试接口，无任何逻辑操作，不需要任何参数，包括Token")
+    @GetMapping(value = "/")
+    public String testGet(){
+//        HashMap<Integer, String> hashMap = new HashMap<>();
+//        hashMap.put(1,"测试");
+//        hashMap.put(2,"测试");
+        return "A";
     }
 }

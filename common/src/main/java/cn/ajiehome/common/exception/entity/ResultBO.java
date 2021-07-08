@@ -1,4 +1,4 @@
-package cn.ajiehome.common.exception.entity.bo;
+package cn.ajiehome.common.exception.entity;
 
 import cn.ajiehome.common.enums.CodeType;
 import cn.ajiehome.common.exception.ApplicationException;

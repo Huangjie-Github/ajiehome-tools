@@ -2,7 +2,7 @@ package cn.ajiehome.common.utils;
 
 import cn.ajiehome.common.enums.CodeType;
 import cn.ajiehome.common.exception.ApplicationException;
-import cn.ajiehome.common.utils.entity.bt.ResultBT;
+import cn.ajiehome.common.utils.entity.ResultBT;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;

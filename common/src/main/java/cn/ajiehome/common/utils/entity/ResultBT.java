@@ -1,4 +1,4 @@
-package cn.ajiehome.common.utils.entity.bt;
+package cn.ajiehome.common.utils.entity;
 
 
 public class ResultBT {
@@ -19,5 +19,13 @@ public class ResultBT {
 
     public void setResult(Object result) {
         this.result = result;
+    }
+
+    public ResultBT(Integer code, Object result) {
+        this.code = code;
+        this.result = result;
+    }
+
+    public ResultBT() {
     }
 }
